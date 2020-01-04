@@ -1,0 +1,35 @@
+// Font-family
+$font-family-base: "Quicksand", sans-serif;
+
+// Font-size
+$font-size-base: 1rem;
+$font-size-sm: $font-size-base * 0.9;
+
+// Font-weight
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+
+//btn
+$border-radius: 1rem;
+$btn-border-radius-lg: $border-radius;
+$btn-font-size-lg: $border-radius;
+
+//Link Hover
+$link-hover-decoration: none;
+$input-border-width: 0;
+$input-bg: $secondary;
+$input-padding-y: 0.6rem;
+$input-placeholder-color: $dark;
+$input-border-radius: $border-radius;
+$input-font-size: 0.875rem;
+
+//Container Width
+$container-max-widths: (
+  sm: 540px,
+  md: 600px,
+  lg: 500px,
+  xl: 500px
+);
+
+//Shadow
+$box-shadow-lg:                  0 .5rem 1rem rgba($primary, .30);
