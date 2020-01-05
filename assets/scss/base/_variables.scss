@@ -9,10 +9,14 @@ $font-size-sm: $font-size-base * 0.9;
 $font-weight-normal: 400;
 $font-weight-bold: 600;
 
+
 //btn
 $border-radius: 1rem;
 $btn-border-radius-lg: $border-radius;
-$btn-font-size-lg: $border-radius;
+$btn-border-radius-sm: $border-radius;
+$btn-font-size-lg: 1rem;
+$btn-font-size-sm: 12px;
+
 
 //Link Hover
 $link-hover-decoration: none;
@@ -33,3 +37,8 @@ $container-max-widths: (
 
 //Shadow
 $box-shadow-lg:                  0 .5rem 1rem rgba($primary, .30);
+$box-shadow-lg:                  0 0.125rem 0.25rem rgba(0,0,0,0.40);
+
+//Badge
+$badge-font-size:                   45%;
+
